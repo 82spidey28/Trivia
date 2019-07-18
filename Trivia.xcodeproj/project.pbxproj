@@ -12,6 +12,8 @@
 		8BC6351922E0E97700461C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6351722E0E97700461C7A /* Main.storyboard */; };
 		8BC6351B22E0E97A00461C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6351A22E0E97A00461C7A /* Assets.xcassets */; };
 		8BC6351E22E0E97A00461C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6351C22E0E97A00461C7A /* LaunchScreen.storyboard */; };
+		8BC6352622E0F13300461C7A /* Trivia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6352522E0F13300461C7A /* Trivia.jpg */; };
+		8BC6352822E0F3C000461C7A /* Pion.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6352722E0F3C000461C7A /* Pion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8BC6351A22E0E97A00461C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC6351D22E0E97A00461C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC6351F22E0E97A00461C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC6352522E0F13300461C7A /* Trivia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Trivia.jpg; path = ../../Images/Trivia.jpg; sourceTree = "<group>"; };
+		8BC6352722E0F3C000461C7A /* Pion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pion.png; path = ../../Pion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		8BC6351222E0E97700461C7A /* Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				8BC6352722E0F3C000461C7A /* Pion.png */,
 				8BC6351322E0E97700461C7A /* AppDelegate.swift */,
 				8BC6351522E0E97700461C7A /* ViewController.swift */,
 				8BC6351722E0E97700461C7A /* Main.storyboard */,
 				8BC6351A22E0E97A00461C7A /* Assets.xcassets */,
 				8BC6351C22E0E97A00461C7A /* LaunchScreen.storyboard */,
 				8BC6351F22E0E97A00461C7A /* Info.plist */,
+				8BC6352522E0F13300461C7A /* Trivia.jpg */,
 			);
 			path = Trivia;
 			sourceTree = "<group>";
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC6352622E0F13300461C7A /* Trivia.jpg in Resources */,
 				8BC6351E22E0E97A00461C7A /* LaunchScreen.storyboard in Resources */,
+				8BC6352822E0F3C000461C7A /* Pion.png in Resources */,
 				8BC6351B22E0E97A00461C7A /* Assets.xcassets in Resources */,
 				8BC6351922E0E97700461C7A /* Main.storyboard in Resources */,
 			);
